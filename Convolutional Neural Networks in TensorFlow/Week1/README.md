@@ -1,5 +1,5 @@
-Keras API, model fit, add layers, predict, plot
-Exercise:
+# Keras API, model fit, add layers, predict, plot
+# Exercise:
   1. zipfile, os.listdir, os.mkdir, split data
   2. sequential layers, padding, pooling, flatten, dense
   3. optimizer, loss function, metrics
