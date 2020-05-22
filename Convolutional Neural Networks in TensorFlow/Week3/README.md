@@ -1,6 +1,7 @@
 ### Transfer Learning of the whole MobileNet model
 ### InceptionV3
 ### Dropouts
+### Feature Extraction
 ### The goal of fine-tuning is to adapt these specialized features to work with the new dataset, rather than overwrite the generic learning.
  
 from tensorflow.keras import layers
