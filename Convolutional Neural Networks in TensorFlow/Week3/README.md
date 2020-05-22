@@ -18,3 +18,10 @@ for layer in pre_trained_model.layers:
 pre_trained_model.summary()
 last_layer = pre_trained_model.get_layer('mixed7')
 last_output = last_layer.output
+
+class myCallback(tf.keras.callbacks.Callback):
+    def on_epoch_end(self, epoch, logs={}):
+        if(logs.get('accuracy')>0.97):
+            self.model.stop_training = True
+            
+            
